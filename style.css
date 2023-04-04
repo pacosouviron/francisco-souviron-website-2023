@@ -1,0 +1,98 @@
+*{
+margin: 0;
+padding: 0;
+}
+#banner{
+    background: url(images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text{
+    text-align: center;
+    color: 	#FF0000;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 0vh;
+}
+
+:not(-----------------------stoopid boody---)
+
+body{
+    background: url(images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: 	#FF0000;
+
+}
+:not(----------------------------------image of me----this part at some point will need fixing, when i change the size of th screen, in the under part the background ends and u can see white)
+
+.fit {
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+  width: 476px;
+  height: 592px;
+  padding: 2vh;
+
+}
+
+
+
+:not(-----------------------stoopid topnav--)
+.topnav {
+  margin: 0vh;
+  overflow: hidden;
+  background-color: transparent;
+  justify-content:space-around;
+  display: flex;
+  padding: 40px
+}
+
+.topnav a {
+  float: left;
+  color: #FF0000;
+  text-align: center;
+  padding: 40px 35px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #FF6100;
+  color: white;
+}
+
+
+
+
+:not(-----------------------stoopid footer-----------------------------)
+
+#footer-down{
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: transparent;
+  color: red;
+  font-size: 35px;
+  bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
