@@ -1,0 +1,174 @@
+*{
+margin: 0;
+padding: 0;
+}
+#banner{
+    background: url(../images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200vh;
+}
+
+.banner-text{
+    text-align: center;
+    color: 	#FF0000;
+    font-size: 70px    ;
+    font-weight: bold;
+    padding: 0vh;
+}
+
+:not(-----------------------stoopid boody---)
+
+body{
+    background: url(images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: 	#FF0000;
+}
+
+
+
+:not(-----------------------stoopid topnav--)
+.topnav {
+  margin: 0vh;
+  overflow: hidden;
+  background-color: transparent;
+  justify-content:space-around;
+  display: flex;
+  padding: 4vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
+.topnav a {
+  float: left;
+  color: #FF0000;
+  text-align: center;
+  padding: 40px 35px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #FF6100;
+  color: white;
+}
+
+
+
+
+:not(-----------------------stoopid footer-----------------------------)
+
+#footer-down{
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: transparent;
+  color: red;
+  font-size: 35px;
+  bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  clear: both;
+  position: relative;
+  margin-top: 6vh;
+
+}
+
+
+:not(-----------------------stoopid passowrd---------------)
+
+.login-box {
+  width: 300px;
+  margin: auto;
+  padding: 70px;
+  background-color: transparent;
+}
+
+.login-box h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.login-box button[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: red;
+  color: white;
+}
+
+#message {
+  text-align: center;
+  margin-top: -10px;
+  color: red;
+  font-size: 60px;
+}
+
+
+:not(-----------------------stoopid BUTTONS OF ABOUT ME PAGE--)
+
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-group button {
+  background-color: transparent;
+  color: red;
+  padding: 40px 35px;
+  font-family: "Times New Roman", Times, serif;
+  width: 40%;
+  border: 1px transparent;
+  display: block;
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 3vh;
+  text-align: center;
+}
+
+.btn-group button:hover {
+  background-color: #FF0000;
+  color: white;
+}
