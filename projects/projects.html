@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+        <head>
+            <title>F.Souviron Personal web</title>
+            <link rel="stylesheet" href="style3.css">
+
+        </head>
+
+
+
+<section id="banner">
+
+    <div class="topnav">
+        <a class="active" href="../index.html">HOME</a>
+        <a href="../about me/about me.html">ABOUT ME</a>
+        <a href="../under process.html">BOOKS</a>
+        <a href="../files/files.html">FILES</a>
+        <a href="#">PROJECTS</a>
+    </div>
+
+
+
+
+    <div class="banner-text">
+        <h1>PROJECTS</h1>
+    </div>
+
+
+
+
+
+
+<body>
+ <div class="login-box">
+      <h2>PASSWORD:</h2>
+      <form id="login-form">
+        <label for="password"></label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+        <p id="message"></p>
+      </form>
+    </div>
+
+    <script>
+      const form = document.querySelector('#login-form');
+      const passwordInput = document.querySelector('#password');
+      const message = document.querySelector('#message');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        if (passwordInput.value === 'guest123') {
+          window.location.href = 'inprojects.html';
+        } else {
+          message.textContent = 'incorrect password :(';
+        }
+      });
+    </script>
+
+</body>
+
+
+
+
+
+
+<footer>
+  <p>By: FRANCISCO SOUVIRON<br>
+      <a href="mailto:franciscosouviron@gmail.com"><mark>franciscosouviron@gmail.com</mark></a></p>
+</footer>
+
+
+
+

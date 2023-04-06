@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+}
+#banner{
+    background: url(../../../images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    height: 1vh;
+
+}
+
+.banner-text{
+    text-align: center;
+    color: 	#FF0000;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 5vh;
+    width: 100%;
+}
+
+:not(-----------------------stoopid boody---)
+
+body{
+    background: url(../../../images/12.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    color: 	#FF0000;
+
+}
+
+:not(-----------------------stoopid text box--)
+
+.textbox{
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+  text-align: justify;
+  border: 2px solid red;
+  padding: 90px;
+  width: 1000px;
+  height: 3200px;
+  font-size: 40px;
+  background-color: #111111;
+  opacity: 0.9;
+
+}
+
+
+
+ul {
+  text-align: left;
+  padding: 0px;
+  padding-left: 100px;
+  list-style-type: none;
+}
+
+.listtitle {
+  font-size: 70px;
+  font-weight: bold;
+  color: 	green;
+
+}
+:not(-----------------------stoopid topnav--)
+.topnav {
+  margin: 0vh;
+  overflow: hidden;
+  background-color: transparent;
+  justify-content:space-around;
+  display: flex;
+  padding: 4vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+
+}
+
+.topnav a {
+  float: left;
+  color: #FF0000;
+  text-align: center;
+  padding: 40px 35px;
+  text-decoration: none;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #FF6100;
+  color: white;
+}
+
+
+
+
+:not(-----------------------stoopid footer-----------------------------)
+
+#footer-down{
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: transparent;
+  color: red;
+  font-size: 35px;
+  bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  clear: both;
+  position: relative;
+  margin-top: 6vh;
+  font-weight: bold;
+
+}
+
+
+.footer-icons a {
+  display: inline-block;
+  margin-left: 20px;
+  color: red;
+  font-size: 40px;
+  transition: color 0.0s ease;
+}
+
+.footer-icons a:hover {
+  color: white;
+}
