@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FRANCISCO SOUVIRON</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style4.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/1V.png">
+
+</head>
+
+<body>
+
+    <header class="header">
+            <div class="div-1">
+                <a class="home" href="index.html">HOME</a>
+            </div>
+
+            <div class="div-2">
+                <a href="about me.html">ABOUT ME</a>
+            </div>
+
+            <div class="div-3">
+                <a href="under process.html">BOOKS</a>
+            </div>
+
+            <div class="div-4">
+                <a href="files.html">FILES</a>
+            </div>
+
+            <div class="div-5">
+                <a href="projects.html">PROJECTS</a>
+            </div>
+    </header>
+
+
+<H1>FILES</H1>
+
+
+ <div class="login-box">
+      <h2>PASSWORD:</h2>
+      <form id="login-form">
+        <label for="password"></label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Login</button>
+        <p id="message"></p>
+      </form>
+    </div>
+
+    <script>
+      const form = document.querySelector('#login-form');
+      const passwordInput = document.querySelector('#password');
+      const message = document.querySelector('#message');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        if (passwordInput.value === 'guest123') {
+          window.location.href = 'infiles.html';
+        } else {
+          message.textContent = 'incorrect password :(';
+        }
+      });
+    </script>
+
+</body>
+
+
+
+
+
+
+<footer>
+  <p>By: FRANCISCO SOUVIRON<br>
+      <a href="mailto:franciscosouviron@gmail.com"><mark>franciscosouviron@gmail.com</mark></a></p>
+</footer>
+
+
+
+
