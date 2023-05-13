@@ -19,6 +19,7 @@ H1 {
 /*this is where i do the txt box*/
 .textbox{
   margin-top: 100px;
+  margin-bottom: 100px;
   display: block;
   margin-left: auto ;
   margin-right: auto;
