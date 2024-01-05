@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* this is books */
+/*this is where i do the txt*/
+/* Text styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #FF0000;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/*this is where i do the rows*/
+
+#bookrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  max-width: 1700px;
+}
+
+#bookrow .inline-block {
+  margin: 10px;
+  flex-basis: calc(25% - 20px);
+  display: flex;
+  justify-content: center;
+}
+
+#bookrow .inline-block img {
+  width: 100%;
+  height: 100%;
+  max-width: 237px;
+  max-height: 325px;
+}
+
+/*this is the dimensions resizing*//*this is the dimensions resizing*//*this is the dimensions resizing*//*this is the dimensions resizing*/
+@media (max-width: 449px) {
+      h1 {
+        font-size: 90px;
+        margin-top: 160px;
+      }
+
+      #bookrow {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+      }
+
+      #bookrow .inline-block {
+        margin-bottom: 30px;
+      }
+
+      #bookrow .inline-block img {
+        width: 187px;
+        height: 257px;
+      }
+    }
+
+@media (min-width: 450px) {
+      #bookrow {
+        justify-content: space-evenly;
+      }
+
+      #bookrow .inline-block {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 100px;
+        margin-top: 10px;
+      }
+    }
+
+@media (max-width: 600px) {
+      #bookrow .inline-block {
+        flex-basis: calc(50% - 20px);
+      }
+    }
+@media (min-width: 750px) {
+  #bookrow .inline-block {
+    flex-basis: calc(25% - 20px);
+  }
+
