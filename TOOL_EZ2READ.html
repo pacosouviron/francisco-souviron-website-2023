@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FRANCISCO SOUVIRON</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style10.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+<body>
+
+    <header class="header">
+            <div class="div-1">
+                <a class="home" href="index.html">HOME</a>
+            </div>
+
+            <div class="div-2">
+                <a href="about me.html">ABOUT ME</a>
+            </div>
+
+            <div class="div-3">
+                <a href="books.html">BOOKS</a>
+            </div>
+
+            <div class="div-4">
+                <a href="files.html">FILES</a>
+            </div>
+
+            <div class="div-5">
+                <a href="projects.html">PROJECTS</a>
+            </div>
+    </header>
+
+    
+    <h1>Text Formatter</h1>
+
+    
+    <div class="textbox">
+
+        <textarea id="input-text" placeholder="Enter your text here"></textarea>
+
+                <button onclick="formatText()">HIGHLIGHT</button>
+
+                        <div id="output-text"></div>
+
+                            <script>
+                                function formatText() {
+                                    var input = document.getElementById("input-text").value;
+                                    var output = document.getElementById("output-text");
+
+                                    var paragraphs = input.split("\n");
+                                    var formattedParagraphs = [];
+
+                                    for (var i = 0; i < paragraphs.length; i++) {
+                                        var words = paragraphs[i].split(" ");
+                                        var formattedWords = [];
+
+                                        for (var j = 0; j < words.length; j++) {
+                                            var word = words[j];
+                                            var formattedWord = "";
+
+                                            if (word.length >= 2 && word.length <= 7) {
+                                                formattedWord = "<b>" + word.substr(0, 3) + "</b>" + word.substr(3);
+                                            } else if (word.length > 7) {
+                                                formattedWord = "<b>" + word.substr(0, 4) + "</b>" + word.substr(4);
+                                            } else {
+                                                formattedWord = word;
+                                            }
+
+                                            formattedWords.push(formattedWord);
+                                        }
+
+                                        formattedParagraphs.push(formattedWords.join(" "));
+                                    }
+
+                                    output.innerHTML = formattedParagraphs.join("<br>");
+                                }
+                            </script>
+
+    </div>
+
+</body>
+</html>
