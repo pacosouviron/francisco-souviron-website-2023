@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*this is where i do the txt*/
+h1 {
+  color: red;
+  text-align: center;
+  color: #FF0000;
+  font-size: 150px;
+  font-weight: bold;
+  padding: vh;
+  margin-top: 40px;
+}
+
+/*this is the password log in stuff*/
+.login-box {
+  width: 800px;
+  margin: auto;
+  padding: 70px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+}
+
+.login-box h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="password"] {
+  display: block;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.login-box button[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: red;
+  color: white;
+}
+
+#message {
+  text-align: center;
+  margin-top: -10px;
+  color: red;
+  font-size: 60px;
+}
+
+/*this is the btn stuff after login in*/
+.btn-group {
+  padding: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.btn-group button {
+  width: 800px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  color: red;
+  padding: 40px 35px;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  font-size: 4vh;
+  font-weight: bold;
+  padding: 3vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-group button:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+/*this is the dimensions resizing*/
+@media (max-width: 449px) {
+  h1 {
+    font-size: 100px;
+    margin-top: 160px;
+  }
+
+  .login-box h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 449px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .login-box input[type="password"] {
+    display: block;
+    width: 300px;
+    margin: auto;
+  }
+
+  /* buton stuff after login*/
+
+  .btn-group button {
+  width: 400px;
+  font-size: 30px;
+  }
+  /* heather*/
+   h1 {
+    margin-top: 175px;
+    font-size: 60px;
+    }
+}
+
+
+@media (min-width: 450px) {
+
+  h1 {
+    font-size: 120px;
+    margin-top: 0px;
+  }
+
+  .login-box h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 449px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .login-box input[type="password"] {
+    display: block;
+    width: 300px;
+    margin: auto;
+  }
+
+
+  /* button stuff after login*/
+
+  .btn-group button {
+  width: 500px;
+  font-size: 40px;
+  }
+
+
+  /* heather*/
+   h1 {
+    margin-top: 15px;
+    font-size: 90px;
+    }
+}
+
+
+
+@media (min-width: 600px) {
+
+  h1 {
+    font-size: 120px;
+    margin-top: 0px;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .login-box input[type="password"] {
+    display: block;
+    width: 400px;
+    margin: auto;
+  }
+
+
+  /* button stuff after login*/
+  .btn-group button {
+  width: 600px;
+  font-size: 40px;
+  }
+
+@media (min-width: 750px) {
+
+
+  /* button stuff after login*/
+  .btn-group button {
+  width: 800px;
+  font-size: 50px;
+  }
+
+
+
+
+
+@media (min-width: 1050px) {
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+
+
+
+
+
+@media (min-width: 1700px) {
+
+
+
+
+
+
